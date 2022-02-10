@@ -12,7 +12,7 @@ As soon as you plug in the USB-Stick, usbmount detects it and auto mounts it to 
 # How to install?
 1. Look at the disclaimer again and decide if you want to proceed
 2. Connect to your printer with SSH (Putty, I prefer mobaXterm )
-3. Execute the following command`cd ~ && wget XXX && sudo bash usb-print.sh`    
+3. Execute the following command `cd ~ && wget XXX && sudo bash usb-print.sh`    
 4. Reboot your raspberry pi (this is not done automatically)
 
 # Issues
