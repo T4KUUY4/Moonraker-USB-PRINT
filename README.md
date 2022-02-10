@@ -11,5 +11,5 @@ As soon as you plug in the USB-Stick, usbmount detects it and auto mounts it to 
 
 # How to install?
 1. Look at the disclaimer again and decide if you want to proceed
-2. * cd ~ && wget XXX && sudo bash usb-print-sh *
+2. *cd ~ && wget XXX && sudo bash usb-print-sh*
 3. Reboot your raspberry pi (this is not done automatically)
