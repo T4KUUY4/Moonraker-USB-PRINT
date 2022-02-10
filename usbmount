@@ -137,7 +137,7 @@ if [ "$1" = add ]; then
 		# Mount the filesystem.
 		log info "executing command: mount -t$fstype ${options:+-o$options} $DEVNAME $mountpoint"
 		mount "-t$fstype" "${options:+-o$options}" "$DEVNAME" "$mountpoint"
-		sudo chmod 777 -R /home/pi/gcode_files/
+		#sudo chmod 777 -R /home/pi/gcode_files/
 		
 		# Determine vendor and model.
 		vendor=
@@ -192,7 +192,7 @@ elif [ "$1" = remove ]; then
 		in_list "$fstype" "$FILESYSTEMS"; then
 		log info "executing command: umount -l $mountpoint"
 		umount -l "$mountpoint"
-		sudo umount /home/pi/gcode_files/USB 
+		#sudo umount /home/pi/gcode_files/USB 
 
 		# Run hook scripts; ignore errors.
 		export UM_DEVICE="$DEVNAME"
