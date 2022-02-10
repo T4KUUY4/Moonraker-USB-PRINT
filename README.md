@@ -17,3 +17,6 @@ As soon as you plug in the USB-Stick, usbmount detects it and auto mounts it to 
 
 # Issues
 Unmounting does not work that well yet
+
+Found some new Issue?
+Contact me on Discord: Takuya#0523
