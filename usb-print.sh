@@ -11,5 +11,5 @@ wget https://raw.githubusercontent.com/T4KUUY4/Moonraker-USB-PRINT/main/usbmount
 sudo mv usbmount.conf /etc/usbmount/
 wget https://raw.githubusercontent.com/T4KUUY4/Moonraker-USB-PRINT/main/usbmount && sudo mv usbmount /usr/share/usbmount/
 sudo sed 's/PrivateMounts=Yes/PrivateMounts=no/' /lib/systemd/system/systemd-udevd.service
-clear
+#clear
 echo "DONE!"
